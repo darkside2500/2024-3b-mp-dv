@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Namdhinggo:wght@400;500;600;700;800&display=swap');
+:root{
+
+    --verde-militar: #78A083;
+    --cinza-esverdiado:var(--cinza-esverdiado) #50727B; 
+    --verde-escurao:#344955;
+    --cinza:#35374B;
+    --verde-sapo:#416D19;
+    --font-titulo:"Anta", sans-serif;
+    --font-texto:"Jacquarda Bastarda 9", serif; 
+
+    
+}
+
+body{
+    background-color: var(--verde-sapo);
+}
