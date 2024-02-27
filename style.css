@@ -14,4 +14,17 @@
 
 body{
     background-color: var(--verde-sapo);
+    color:var(--verde-militar)
+    font-family:var(var(--font-texto));
 }
+.conteudo-principal{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   max-width: 1200px; 
+   width: 100%;
+   margin: 0 auto;
+}
+
+
