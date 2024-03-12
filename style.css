@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&family=Lilita+One&display=swap');
 
 :root {
-    --lilas:#be9eff;
-    --rosa-es: #df2d7a;
-    --rosa-esc: #ff79b8;
+    --lilas:#026e33;
+    --rosa-es: #080533;
+    --rosa-esc: #a5ca9e;
     --branco: #fcfcfd;
-    --rosa: #fa77a9;
+    --rosa: #889e8d;
     --font-titulo: "Lilita One", sans-serif;
     --font-texto: "Chau Philomene One", sans-serif;
 }
