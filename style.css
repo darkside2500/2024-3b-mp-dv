@@ -64,11 +64,15 @@ body {
     border-radius: 0 0 40px 40px;
 }
 
-.ativo{
+.botao.ativo{
     background-color: var(--lilas);
     border-bottom: 4px solid var(--branco) ;
 }
 
+.abas-textos{
+    background-color: #026e33
+    pading; 40px;
+}
 @media screen and (min-width: 768px) {
     .botoes{
         display: flex;
