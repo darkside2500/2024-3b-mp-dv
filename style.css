@@ -1,24 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono&family=Playfair+Display&display=swap');
 
-:root {
+
+:root{
+    --verde-escuro: #097e55;
+    --verde: #3a9e5b;
+    --verde-claro: #ADBC9F;
+    --pastel: #142e1c;
     --preto: #000000;
-    --lilas:#0f6744;
-    --rosa-es: #02b43a;
-    --rosa-esc: #063225;
-    --branco: #fcfcfd;
-    --rosa: #2c5010;
-    --font-titulo: "Lilita One", sans-serif;
-    --font-texto: "Chau Philomene One", sans-serif;
+    --font-titulo:"Kode Mono", monospace;
+    --font-texto: "Playfair Display", serif;
+
 }
 
-body {
-    background-color: var(--rosa);
-    color: var(--branco);
+body{
+    background-color: var(--verde-escuro);
+    color: var(--pastel);
     font-family: var(--font-texto);
 }
 
-.conteudo-principal {
-    display: flex;
+.conteudo-principal{
+    display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -27,32 +28,32 @@ body {
     margin: 0 auto;
 }
 
-.titulo-principal {
+.titulo-principal{
     text-align: left;
     width: 100%;
     font-size: 36px;
 }
 
-.titulo-principal span {
-    color: var(--rosa-es);
+
+.titulo-principal span{
+    color: var(--verde-claro);
 }
 
-.botao {
+.botao{
     font-family: var(--font-texto);
     font-size: 18px;
-    background-color: var(--rosa-esc);
-    color: var(--branco);
+    background-color: var(--verde-claro);
+    color: var(--preto);
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1em;
     width: 100%;
-    border-bottom: 4px solid var(--rosa-es);
-    border-left: 4px solid var(--rosa-es);
-    border-right: 4px solid var(--rosa-es);
+    border-bottom: 4px solid var(--verde);
+    border-left: 4px solid var(--verde);
+    border-right: 4px solid var(--verde);
     border-top: none;
 }
-
 .botoes {
     display: block;
 }
@@ -66,12 +67,12 @@ body {
 }
 
 .botao.ativo{
-    background-color: var(--lilas);
-    border-bottom: 4px solid var(--branco) ;
+    background-color: var(--verde);
+    border-bottom: 4px solid var(--preto);
 }
 
 .abas-textos{
-    background-color: var(--rosa-es);
+    background-color: var(--verde);
     padding: 40px;
     border-radius: 0 0 40px 40px;
 }
@@ -91,18 +92,18 @@ body {
 
 .aba-conteudo-titulo-secundario{
     text-align: center;
-    color:var(--preto) ;
+    color: var(--preto);
     text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) {
     .botoes{
         display: flex;
-    }
+    } 
     .botao:first-child{
         border-radius: 40px 0 0 0;
     }
     .botao:last-child{
-        border-radius: 0 40px 0 0;
+        border-radius: 0 40px 0 0; 
     }
 }
