@@ -2,11 +2,11 @@
 
 
 :root{
-    --verde-escuro: #097e55;
-    --verde: #3a9e5b;
+    --verde-escuro: #15825c;
+    --verde: #12552a;
     --verde-claro: #ADBC9F;
-    --pastel: #142e1c;
-    --preto: #000000;
+    --pastel: #0e673f;
+    --preto: #101310;
     --font-titulo:"Kode Mono", monospace;
     --font-texto: "Playfair Display", serif;
 
@@ -94,6 +94,29 @@ body{
     text-align: center;
     color: var(--preto);
     text-transform: uppercase;
+}
+
+.contador{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contador-digito{
+    padding: 0 16px;
+    text-align: center;
+    min-width: 100px;
+}
+
+.contador-digito-numero{
+    font-size: 65px;
+    margin: 0;
+}
+
+.contador-digito-texto{
+    color: var(--pastel);
+    font-size: 20px;
+    margin: 0;
 }
 
 @media screen and (min-width: 768px) {
