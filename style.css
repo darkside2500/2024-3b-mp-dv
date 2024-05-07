@@ -2,11 +2,11 @@
 
 
 :root{
-    --verde-escuro: #15825c;
-    --verde: #12552a;
+    --verde-escuro: #35bf8f;
+    --verde: #0c411e;
     --verde-claro: #ADBC9F;
-    --pastel: #0e673f;
-    --preto: #101310;
+    --pastel: #4f9c64;
+    --preto: #000000;
     --font-titulo:"Kode Mono", monospace;
     --font-texto: "Playfair Display", serif;
 
@@ -73,8 +73,9 @@ body{
 
 .abas-textos{
     background-color: var(--verde);
-    padding: 40px;
+    padding: 45px;
     border-radius: 0 0 40px 40px;
+    width: 80%;
 }
 
 .aba-conteudo.ativo{
